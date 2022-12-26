@@ -11,6 +11,7 @@ In this project, we will build an flask application that can predict house price
 ## Instructions
 
 * Architectural Diagram
+
 ![image](https://user-images.githubusercontent.com/35824913/209517441-60ebe9d4-5afe-48b9-a083-18973af83139.png)
 
 
