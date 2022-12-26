@@ -31,6 +31,8 @@ In this project, we will build an flask application that can predict house price
 
 ![image](https://user-images.githubusercontent.com/35824913/209524110-d0a5882a-fd6b-474a-916f-ca0acf1d9931.png)
 
+* Delete two yml files on the repo: azure-pipelines.yml and .github/workflows/python-app.yml so that you create your own yml files.
+
 ### Create and configure ssh key to github account
 
 * Go to Azure portal and create a new shell or bash command
@@ -67,6 +69,18 @@ source ~/.myrepo/bin/activate
 ```
 make all
 ```
+After running this command, your bash/shell cmd should be like blow:
+
+![image](https://user-images.githubusercontent.com/35824913/209558658-7ccfa8d0-a441-4f3d-a87b-0b44db6ad2f3.png)
+
+* Host web app by using Azure App Service
+
+```
+az webapp up --name <yourwebappname> --resource-group <yourresourcegroup> --runtime "PYTHON:3.9" --location <yourlocation> --sku B1
+```
+After hosting web app, you can open website by direct url
+
+![image](https://user-images.githubusercontent.com/35824913/209559186-ef3496cb-f52f-4123-8a64-68123f90ec1d.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
