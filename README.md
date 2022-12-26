@@ -62,12 +62,11 @@ python3 -m venv ~/.myrepo
 source ~/.myrepo/bin/activate
 ```
 
-* Run this project by using Makefile
+* Run this project following to Makefile
 
 ```
 make all
 ```
-
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
