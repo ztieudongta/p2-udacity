@@ -10,14 +10,36 @@ In this project, we will build an flask application that can predict house price
 
 ## Instructions
 
-* Architectural Diagram
+## Architectural Diagram
 
-![image](https://user-images.githubusercontent.com/35824913/209517441-60ebe9d4-5afe-48b9-a083-18973af83139.png)
+![image](https://user-images.githubusercontent.com/35824913/209519200-e645e3e5-09ad-40bb-b229-aa78278479d9.png)
 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+## Instructions for running this project
 
-* Project running on Azure App Service
+### Prerequisites:
+
+* [Github account](https://github.com/)
+
+* [Azure account](https://azure.microsoft.com/en-us/)
+
+* [Azure devops account](https://dev.azure.com/f)
+
+### Create a new fork of this project
+
+* You need to create a new fork of this project so that you can work on it easily
+
+![image](https://user-images.githubusercontent.com/35824913/209524110-d0a5882a-fd6b-474a-916f-ca0acf1d9931.png)
+
+### Create and configure ssh key
+
+* Go to Azure portal and create a new shell or bash command
+
+* Create your ssh key and add to your github setting
+
+```
+ssh-keygen -t rsa
+```
 
 * Project cloned into Azure Cloud Shell
 
