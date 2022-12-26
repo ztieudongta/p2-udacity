@@ -1,12 +1,12 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, we will build an flask application that can predict house price of Boston or California. This project is applied Continuous Integration (CI) by using Github Actions and we use Azure App Service to deploy app to website and create a Azure Pipeline to apply changes automatically from code in github to web app so that we can apply Continuos Delivery (CD).
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [A link to a Trello board for the project](https://trello.com/b/sachbUu9/p2-udacity)
+* [A link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1VS6FavzHqJ2QgfqKAtlMbNunuqqQ5wceTRKVGWMbJgI/edit?usp=sharing)
+
 
 ## Instructions
 
