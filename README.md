@@ -31,7 +31,7 @@ In this project, we will build an flask application that can predict house price
 
 ![image](https://user-images.githubusercontent.com/35824913/209524110-d0a5882a-fd6b-474a-916f-ca0acf1d9931.png)
 
-### Create and configure ssh key
+### Create and configure ssh key to github account
 
 * Go to Azure portal and create a new shell or bash command
 
@@ -39,9 +39,35 @@ In this project, we will build an flask application that can predict house price
 
 ```
 ssh-keygen -t rsa
+cat <your-keyfile-path>
+```
+* Go to [Github key setting](https://github.com/settings/keys) and add created key
+
+### Clone project into Azure Cloud Shell
+
+* Copy SSH path to clone your project into Azure Cloud Shell
+
+![image](https://user-images.githubusercontent.com/35824913/209527012-240c94d8-5fc1-4ba2-aa25-5cac589e9fa6.png)
+
+```
+git clone <your-SSH-path>
 ```
 
-* Project cloned into Azure Cloud Shell
+### Create and active the python virtual environment and run project
+
+* You need to create python virtual environment inside your project folder
+
+```
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
+
+* Run this project by using Makefile
+
+```
+make all
+```
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
