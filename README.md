@@ -4,14 +4,15 @@ In this project, we will build an flask application that can predict house price
 
 ## Project Plan
 
-* [A link to a Trello board for the project](https://trello.com/b/sachbUu9/p2-udacity)
-* [A link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1VS6FavzHqJ2QgfqKAtlMbNunuqqQ5wceTRKVGWMbJgI/edit?usp=sharing)
+* [Link to a Trello board for the project](https://trello.com/b/sachbUu9/p2-udacity)
+* [Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1VS6FavzHqJ2QgfqKAtlMbNunuqqQ5wceTRKVGWMbJgI/edit?usp=sharing)
 
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram
+![image](https://user-images.githubusercontent.com/35824913/209517441-60ebe9d4-5afe-48b9-a083-18973af83139.png)
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
